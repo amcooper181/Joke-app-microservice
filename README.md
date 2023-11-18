@@ -1,5 +1,7 @@
 # Joke Generating App Microservice
 
+This microservice generates a random joke from [sv443's API](https://sv443.net/jokeapi/v2/) using the JokeAPI Python Wrapper.
+
 ## Pre-requirements
 
 The [JokeAPI Python Wrapper](https://github.com/leet-hakker/JokeAPI-Python) must be installed.
@@ -31,3 +33,7 @@ Now, you can request a new joke using a GET request as follows:
 Accessing the joke can be done easily:
 
 `new_joke = response.text`
+
+## Blacklist
+
+This microservice blacklists the following categories: 'nsfw', 'racist', 'sexist', 'religious', 'political'. This can be changed by modifying the request function, currently on line 26.
