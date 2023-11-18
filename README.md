@@ -34,6 +34,11 @@ Accessing the joke can be done easily:
 
 `new_joke = response.text`
 
+## UML Sequence Diagram
+
+![Joke Microservice UML](https://github.com/amcooper181/Joke-app-microservice/assets/128009590/a4a2071a-b1d2-4348-a971-747d3543edf4)
+
+
 ## Blacklist
 
 This microservice blacklists the following categories: 'nsfw', 'racist', 'sexist', 'religious', 'political'. This can be changed by modifying the request function, currently on line 26.
