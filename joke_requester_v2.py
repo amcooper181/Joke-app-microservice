@@ -40,3 +40,5 @@ if __name__ == "__main__":
     webServer.server_close()
     print("Server stopped.")
 
+# Source: https://pypi.org/project/requests/
+# Source: https://github.com/leet-hakker/JokeAPI-Python
